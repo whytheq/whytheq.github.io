@@ -1,0 +1,6 @@
+#basic style to center all content and give the webpage a black background with white text */
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
