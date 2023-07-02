@@ -2,4 +2,6 @@ body {
     background-color: black;
     color: white;
     text-align: center;
+    /* change all font to Open Sans */
+    font-family: 'Open Sans', sans-serif;
 }
