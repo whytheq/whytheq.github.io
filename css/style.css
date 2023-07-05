@@ -1,12 +1,9 @@
-/* body {
-    background-color: black;
-    color: white;
-} */
+/* This is the main stylesheet for the application. */
 body {
   background-image: url("../assets/pixels.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  /* change all font to Open Sans */
+  font-size: 60px;
   font-family: "Open Sans", sans-serif;
 }
