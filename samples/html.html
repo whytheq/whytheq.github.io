@@ -8,11 +8,11 @@
   <meta http-equiv="pragma" content="no-cache" />
   <meta http-equiv="expires" content="0" />
   <link rel="stylesheet" href="../css/style_samples.css" />
-
-  <link rel="stylesheet" href="../prism.css" />
-  <script src="../prism.js"></script>
-  <link rel="stylesheet" href="../prism-line-numbers.css" />
-  <script src="../prism-line-numbers.js"></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-light.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js" async></script>
+  <script src="https://cdn.jsdelivr.net/npm/highlightjs-line-numbers.js/dist/highlightjs-line-numbers.min.js"
+    async></script>
 </head>
 
 <body>
@@ -20,25 +20,29 @@
   <ul>
     <div class="code-sample">
       <li>Element: these are the 'parts' of a page e.g. body or h1
-        <pre class="line-numbers">
-        <code class="language-html">
-          &lt;html&gt;
-            &lt;head&gt;
-              &lt;title&gt;My Web Page&lt;/title&gt;
-            &lt;/head&gt;
-            &lt;body&gt;
-              &lt;h1&gt;Welcome to my web page!&lt;/h1&gt;
-              &lt;p&gt;This is a paragraph of text.&lt;/p&gt;
-            &lt;/body&gt;
-          &lt;/html&gt;
-        </code>
-      </pre>
+        <pre class="line-numbers"><code class="hljs-atom-one-light language-html">&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My Web Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Welcome to my web page!&lt;/h1&gt;
+    &lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+        </code></pre>
       </li>
     </div>
     <div class="code-sample">
       <li>Attribute: these are values within specific Elements</li>
     </div>
   </ul>
+
+
+  <script>hljs.highlightAll();</script>
+  <script>hljs.initLineNumbersOnLoad({
+      singleLine: true
+    });</script>
+
 </body>
 
 </html>
