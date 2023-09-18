@@ -1,0 +1,9 @@
+
+1. 
+Add "Copy Code" buttons to the code snippets: https://www.roboleary.net/2022/01/13/copy-code-to-clipboard-blog.html
+
+2.
+Add dynamic js to the Index.html file so that I can create a file blog.json that feeds data into the website:
+https://stackoverflow.com/questions/12070631/how-to-use-json-file-in-html-code
+
+
